@@ -18,10 +18,8 @@ def merge(left, right):
         else:
             merged.append(right.pop(0))
 
-    if len(left) > 0:
-        merged += left
-    else:
-        merged += right
+    merged += left
+    merged += right
 
     return merged
 
