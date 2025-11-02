@@ -4,7 +4,7 @@ def debug_print(debug_msg=None, **kwargs):
         print(debug_msg)
 
     for key, value in kwargs.items():
-        print("{}: {}".format(key, value))
+            print("{}: {}".format(key, value))
 
 
 def mergesort(array):
